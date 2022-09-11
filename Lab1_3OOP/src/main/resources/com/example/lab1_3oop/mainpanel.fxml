@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Rectangle?>
+<?import com.example.lab1_3oop.colorcombobox.ColorComboBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import com.example.lab1_3oop.SmartCanvas?>
+
+
+<VBox prefHeight="450.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.lab1_3oop.GraphController">
+    <children>
+        <MenuBar VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Сохранить" onAction="#saveImage"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Помощь">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Бога нет"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane prefHeight="425.0" prefWidth="685.0"
+                    style="-fx-background-color: #dcdcdc;" VBox.vgrow="ALWAYS">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="400.0" width="420.0" layoutX="10.0"
+                           layoutY="10.0" stroke="BLACK" strokeType="INSIDE"/>
+                <SmartCanvas layoutX="10" layoutY="10" width="420" height="400" fx:id="canvas"/>
+
+                <Pane layoutX="532.0" layoutY="14.0" prefHeight="119.0" prefWidth="149.0"
+                      style="-fx-border-color: grey; -fx-border-radius: 10;" AnchorPane.bottomAnchor="292.0">
+                    <children>
+                        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цвет контура"/>
+                        <ColorComboBox layoutX="14.0" layoutY="35.0" prefHeight="25.0" prefWidth="127.0"
+                                       fx:id="colorStroke"/>
+                        <Text layoutX="14.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цвет заливки"/>
+                        <ColorComboBox layoutX="14.0" layoutY="80.0" prefHeight="25.0" prefWidth="127.0"
+                                       fx:id="colorBackground"/>
+                    </children>
+                </Pane>
+                <Pane layoutX="532.0" layoutY="143.0" prefHeight="98.0" prefWidth="149.0"
+                      style="-fx-border-color: grey; -fx-border-radius: 10;">
+                    <children>
+                        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контур"/>
+                        <Text layoutX="22.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Толщина"/>
+                        <Text layoutX="22.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тип"
+                              wrappingWidth="49.53515625"/>
+                        <TextField layoutX="75.0" layoutY="36.0" prefHeight="25.0" prefWidth="66.0" text="1.0"
+                                   fx:id="StrokeWidth"/>
+                        <ComboBox layoutX="75.0" layoutY="67.0" prefHeight="25.0" prefWidth="66.0" fx:id="StrokeType"/>
+                    </children>
+                </Pane>
+                <Pane layoutX="532.0" layoutY="257.0" prefHeight="90.0" prefWidth="149.0"
+                      style="-fx-border-color: grey; -fx-border-radius: 10;">
+                    <children>
+                        <Text layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Размер изображения"/>
+                        <Text layoutX="22.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ширина"/>
+                        <Text layoutX="22.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Высота"/>
+                        <TextField layoutX="77.0" layoutY="27.0" prefHeight="25.0" prefWidth="66.0" fx:id="ImageWidth"
+                                   text="420"/>
+                        <TextField layoutX="77.0" layoutY="58.0" prefHeight="25.0" prefWidth="66.0" fx:id="ImageHeight"
+                                   text="400"/>
+                    </children>
+                </Pane>
+                <VBox layoutX="442.0" layoutY="14.0" prefHeight="213.0" prefWidth="74.0"
+                      style="-fx-border-color: grey; -fx-border-radius: 10;">
+                    <children>
+                        <ToggleButton mnemonicParsing="false" prefHeight="42.0" prefWidth="50.0"
+                                      fx:id="ToggleButtonLine">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="Primitive"/>
+                            </toggleGroup>
+                            <VBox.margin>
+                                <Insets bottom="9.0" left="12.0" right="12.0" top="9.0"/>
+                            </VBox.margin>
+                            <graphic>
+                                <Line endX="-71.70710754394531" endY="20.292892456054688" startX="-100.0"/>
+                            </graphic>
+                        </ToggleButton>
+                        <ToggleButton mnemonicParsing="false" prefHeight="42.0" prefWidth="50.0"
+                                      toggleGroup="$Primitive" fx:id="ToggleButtonCircle">
+                            <VBox.margin>
+                                <Insets bottom="9.0" left="12.0" right="12.0" top="9.0"/>
+                            </VBox.margin>
+                            <graphic>
+                                <Circle fill="DODGERBLUE" radius="13.0" stroke="BLACK" strokeType="INSIDE"/>
+                            </graphic>
+                        </ToggleButton>
+                        <ToggleButton mnemonicParsing="false" prefHeight="42.0" prefWidth="50.0"
+                                      toggleGroup="$Primitive" fx:id="ToggleButtonEllipse">
+                            <VBox.margin>
+                                <Insets bottom="9.0" left="12.0" right="12.0" top="9.0"/>
+                            </VBox.margin>
+                            <graphic>
+                                <Ellipse fill="DODGERBLUE" radiusX="16.0" radiusY="11.0" stroke="BLACK"
+                                         strokeType="INSIDE"/>
+                            </graphic>
+                        </ToggleButton>
+                        <ToggleButton mnemonicParsing="false" prefHeight="42.0" prefWidth="50.0"
+                                      toggleGroup="$Primitive" fx:id="ToggleButtonRectangle">
+                            <VBox.margin>
+                                <Insets bottom="9.0" left="12.0" right="12.0" top="9.0"/>
+                            </VBox.margin>
+                            <graphic>
+                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="19.0" stroke="BLACK"
+                                           strokeType="INSIDE" width="29.0"/>
+                            </graphic>
+                        </ToggleButton>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

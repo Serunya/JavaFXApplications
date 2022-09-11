@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<?import javafx.scene.control.ToggleGroup?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0"
+            prefWidth="487.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.lab1_4oop.MainController" fx:id="MainPanel">
+    <children>
+        <TextField layoutX="14.0" layoutY="414.0" fx:id="FieldFunction"/>
+        <ComboBox layoutX="14.0" layoutY="487.0" prefWidth="150.0" fx:id="ListFunction"/>
+        <TextField layoutX="218.0" layoutY="487.0" prefHeight="25.0" prefWidth="51.0" fx:id="strokeWidth"
+                   onAction="#setStrokeWidth"/>
+        <TextField layoutX="324.0" layoutY="521.0" prefHeight="25.0" prefWidth="51.0" fx:id="maxValue"
+                   onAction="#update"/>
+        <TextField layoutX="324.0" layoutY="487.0" prefHeight="25.0" prefWidth="51.0" fx:id="minValue"
+                   onAction="#update"/>
+        <Text layoutX="178.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Width"/>
+        <Text layoutX="295.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="min"/>
+        <Text layoutX="295.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="max"/>
+        <RadioButton layoutX="386.0" layoutY="491.0" mnemonicParsing="false" text="show" fx:id="showButton"
+                     onAction="#update">
+            <toggleGroup>
+                <ToggleGroup fx:id="setVisible"/>
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton layoutX="386.0" layoutY="525.0" mnemonicParsing="false" text="hide" toggleGroup="$setVisible"
+                     fx:id="hideButton" onAction="#update"/>
+    </children>
+</AnchorPane>

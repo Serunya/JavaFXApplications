@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88443e4a-b822-47e6-9b20-ece5e505f2c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab1_5OOP/Lab1_5OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1_5OOP/src/main/java/com/example/lab1_5oop/ProgramLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/7.3.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/Lab1OS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/build/classes/java/main/com/example/lab1os/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/build/classes/java/main/com/example/lab1os/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/build/classes/java/main/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/src/main/java/com/example/lab1os/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/src/main/java/com/example/lab1os/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1OS/src/main/resources/com/example/lab1os/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_2OOP/src/main/java/com/example/lab1_2oop/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_2OOP/src/main/java/com/example/lab1_2oop/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_2OOP/src/main/java/com/example/lab1_2oop/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_2OOP/src/main/java/com/example/lab1_2oop/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_2OOP/src/main/java/com/example/lab1_2oop/primitives/PaneCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_2OOP/src/main/java/com/example/lab1_2oop/primitives/PaneCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_2OOP/src/main/resources/com/example/lab1_2oop/mainpanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_2OOP/src/main/resources/com/example/lab1_2oop/mainpanel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_2OOP/target/classes/com/example/lab1_2oop/mainpanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_2OOP/target/classes/com/example/lab1_2oop/mainpanel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/GraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/GraphController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/SmartCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/SmartCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/colorcombobox/ColorComboBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/colorcombobox/ColorComboBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/colorcombobox/ColorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/colorcombobox/ColorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/colorcombobox/ColorPropertyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/colorcombobox/ColorPropertyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/eventhandler/KeyEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/eventhandler/KeyEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Primitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Primitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_3OOP/src/main/java/com/example/lab1_3oop/primitives/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_4OOP/src/main/java/com/example/lab1_4oop/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_4OOP/src/main/java/com/example/lab1_4oop/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_4OOP/src/main/resources/com/example/lab1_4oop/mainpanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_4OOP/src/main/resources/com/example/lab1_4oop/mainpanel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1_4OOP/target/classes/com/example/lab1_4oop/mainpanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_4OOP/target/classes/com/example/lab1_4oop/mainpanel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/OSLab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/src/main/java/com/example/oslab1/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/src/main/resources/com/example/oslab1/MGs.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/src/main/resources/com/example/oslab1/MainPanel.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/src/main/resources/img/jaba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/src/main/resources/img/lama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/target/classes/com/example/oslab1/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/target/classes/com/example/oslab1/MGs.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/target/classes/com/example/oslab1/MainPanel.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/target/classes/img/jaba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/target/classes/img/lama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLab1/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_swing_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_openjfx_javafx_swing_win_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/com/example/demo/MainPanel.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/com/example/demo/img/jaba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/com/example/demo/img/lama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/MainPanel.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/img/jaba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/img/lama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/module-info.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Ea7ivWnOCuu08VTcDEXgIA60pQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lab1_6OOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lab1_6OOP" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88443e4a-b822-47e6-9b20-ece5e505f2c4" name="Changes" comment="" />
+      <created>1662821974075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662821974075</updated>
+    </task>
+    <servers />
+  </component>
+</project>
