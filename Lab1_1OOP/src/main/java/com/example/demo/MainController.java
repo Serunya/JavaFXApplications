@@ -23,6 +23,8 @@ import static java.lang.System.out;
 public class MainController {
     private Image imgLama = new Image(getClass().getResourceAsStream("/com/example/demo/img/lama.png"));
     private Image imgJaba = new Image(getClass().getResourceAsStream("/com/example/demo/img/jaba.png"));
+    private Image imgJmih = new Image(getClass().getResourceAsStream("/com/example/demo/img/jmih.png"));
+    private Image imgKot = new Image(getClass().getResourceAsStream("/com/example/demo/img/kot.png"));
     private Image img;
 
     @FXML
@@ -33,6 +35,10 @@ public class MainController {
 
     @FXML
     private RadioButton Frog;
+    @FXML
+    private RadioButton Kot;
+    @FXML
+    private RadioButton Jmih;
 
     @FXML
     private Pane WorkPane;
@@ -42,11 +48,18 @@ public class MainController {
 
     @FXML
     public void initialize() {
+        WorkPane.setOnMouseDragged(this::click);
         Lama.setOnAction(event -> {
             img = imgLama;
         });
         Frog.setOnAction(event -> {
             img = imgJaba;
+        });
+        Kot.setOnAction(event -> {
+            img = imgKot;
+        });
+        Jmih.setOnAction(event -> {
+            img = imgJmih;
         });
     }
 
